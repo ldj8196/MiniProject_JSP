@@ -1,5 +1,13 @@
 # Team Orca Web MiniProject
 부경대학교 빅데이터자바개발자과정 4조 미니프로젝트 
+# :clipboard: 목차
+
+- :books: <a href="#outline">개요</a>
+- :wrench: <a href="#tech">기술스택</a>
+- :family: <a href="#team">팀원소개</a>
+- :bookmark_tabs: <a href="#function">기능구현</a>
+- :bulb: <a href="#result">결론</a>
+- :mag_right: <a href="#fullfill">보완할점</a>
 
 ## 1일차
 - 2023.04.11
