@@ -30,7 +30,7 @@
     - 자료수집
     - ERD Table 수정
     
- <a href="https://www.notion.so/bf2c17f0a0bf47b2ab01f7b17a834dc3?v=4931d2f41b0b41a2a41d5e11400ecdaf">노션링크</a>
+ <a href="https://www.notion.so/b439a796c02a46fea7ae497cee7b2ea6?v=c962100ea99943608e513bb3e0c5d589">노션링크</a>
  
  ## 2일차
  - 2023.04.12
