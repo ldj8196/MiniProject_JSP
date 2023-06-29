@@ -10,7 +10,7 @@
 - :mag_right: <a href="#fullfill">보완할점</a>
 
 # :books: <a name="outline">개요</a>
-<img src="https://raw.githubusercontent.com/ldj8196/MiniProject_JSP/main/src/main/webapp/resources/images/b.jpg">
+<img src="https://raw.githubusercontent.com/ldj8196/MiniProject_JSP/main/src/main/webapp/resources/images/jsp메인페이지.gif">
 
 >**프로젝트**: 항만물류사이트 제작
 >
