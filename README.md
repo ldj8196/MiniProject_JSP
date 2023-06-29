@@ -9,6 +9,19 @@
 - :bulb: <a href="#result">결론</a>
 - :mag_right: <a href="#fullfill">보완할점</a>
 
+# :books: <a name="outline">개요</a>
+<img src="https://raw.githubusercontent.com/ldj8196/MiniProject_JSP/main/src/main/webapp/resources/images/b.jpg">
+
+>**프로젝트**: 항만물류사이트 제작
+>
+>**기획 및 제작** : 부경대학교 빅데이터자바개발자과정 4조 미니프로젝트 
+>
+>**분류**: 개인포트폴리오
+>
+>**제작 기간**: 2023.04.12 ~ 2023.04.26
+>
+>**담당 기능**: 이메일인증, 사업자등록번호 확인, 선박 시뮬레이션, 배송추적, 결제, 목록확인
+
 ## 1일차
 - 2023.04.11
   - Notion Group 생성
@@ -90,5 +103,3 @@
  - 선박 데이터 삽입
  - 선박 목록 조회 페이지 구현
  - 가견적서 페이지 구현
-
- 
