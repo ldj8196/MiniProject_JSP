@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body
+{
+margin: 0;
+}
+
+header
+{
+height: 65px;
+padding-bottom: 20px;
+padding-top: 10px;
+border-bottom: 3px solid #c8c8c8;
+background-color: white
+}
+
+h3
+{
+font-size: 55px;
+margin: 0;
+color: #07c;
+height: 100%;
+padding-right: 50px;
+padding-left: 45px;     
+}
+
+li
+{
+list-style: none;
+}
+
+.cnt
+{
+display: flex;
+align-items: baseline;
+width: 100%;
+
+}
+
+ul
+{
+display: flex; /* 가로정렬 */
+height: 100%;
+margin: 0;
+align-items: flex-end;
+justify-content: space-between; /* 일정한 공백으로 배치 */
+align-items: baseline;
+}
+
+li:nth-child(4) /* 2n은 짝수 2n-1은 홀수 */
+{
+padding-right: 0;
+}
+
+a
+{
+text-decoration: none;
+}
+
+a:hover
+{
+color: white;
+}
+
+
+#topMenu 
+{
+height: 60px;
+}
+
+/* 서브메뉴를 absolute로 만들기 위해 부모 요소를 relaticve로 지정 */
+/* display: flex;align-items: left;justify-content: left; */
+
+#topMenu>li 
+{
+float: left;
+position: relative;
+width: 150px;
+/* padding-right: 65px; */
+font-size: 17px;
+/* width: 219px; */
+margin: 0 32px;
+text-align: center;
+}
+
+#topMenu>li>a {
+display: block;
+/* 링크 텍스트를 블록으로  */
+color: #000;
+font-weight: 600;
+/* 폰트굵기 */
+text-shadow: 0 1px #07c;
+padding: 20px;
+}
+
+#topMenu>li>a>span {
+font-size: 0.5em;
+}
+
+#topMenu>li>a:hover {
+color: #000;
+text-shadow: 0 -1px;
+}
+
+#topMenu>li>ul 
+{
+display: none;
+position: absolute; /* 물어볼거 */
+width: 150px;
+background-color: rgba(255, 255, 255, 0.6);
+left: 0%;
+top: 100%;
+/* left: 20px; */
+padding-left: 0;
+}
+
+#topMenu>li>ul>li
+{
+/* padding: 10px 10px 10px 30px; 물어볼거 */
+padding: 10px 0;
+}
+
+#topMenu>li>ul>li>a
+{
+font-size: 14px;
+/* padding: 10px; */
+color: #000;
+}
+
+#topMenu>li:hover>ul {
+/* hover가 마우스 올릴시 */
+display: block;
+/* 메인 메뉴 항목 위로 오버하면 서브메뉴 표시 */
+z-index: 10;
+/* 슬라이드 쇼에 다리지 않게 조절 */
+}
+
+#topMenu>li>ul>li>a:hover {
+color: #4d4a4a;
+}
+
+.btns>li>a
+{
+display: block;
+/* 링크 텍스트를 블록으로  */
+color: #000;
+font-weight: 600;
+/* 폰트굵기 */
+text-shadow: 0 1px #07c;
+padding: 20px; 
+/* 상 하 좌 우 다 20px씩 패딩준다 */
+}
+
+.top_menu
+{
+margin-left: auto; /* 맨 오른쪽으로 붙이고 싶을때 */
+padding-right: 25px;
+}
+
+.top_menu>
+
+i
+{
+    margin-right: 10px;
+}
+
+.join
+{
+     margin-right: 25px;
+}
+
+.btns>li>a:hover {
+    color:  #000;
+    text-shadow: 0 -1px;
+    }
+#search:hover
+{
+    color: #000;
+    text-shadow: 0 -1px;
+}
+
+#footer
+{
+    display: flex;
+    width: 100%;
+    height: 260px;
+    background-color: #282828;
+    border-top: 2px solid #c8c8c8;
+    position: relative;
+    align-items: center;
+
+}
+
+#footer:before {
+    content: '';
+    position: absolute;
+    width: 550px;
+    height: 390px;
+    background: url(../images/a.png);
+    bottom: 0;
+    left: 86px;
+}
+
+.ft_1
+{
+    display: flex;
+}
+
+.text_box
+{   
+    display: flex;
+    margin-left: auto;
+    width: 420px;
+    background-color: #000;
+}
+
+.text_box>p>span
+{
+    display: flex;
+    color: aliceblue;
+    font-size: 17px;
+}
+.cnt2
+{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.cnt2>img
+{
+    width: 100%;
+    height: 100%;
+}
