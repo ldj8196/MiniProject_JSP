@@ -6,11 +6,11 @@
 - :wrench: <a href="#tech">기술스택</a>
 - :family: <a href="#team">팀원소개</a>
 - :bookmark_tabs: <a href="#function">기능구현</a>
-- :bulb: <a href="#result">결론</a>
-- :mag_right: <a href="#fullfill">보완할점</a>
+- :mag_right: <a href="#swot">SWOT분석</a>
+- :arrow_forward: <a href="#next">최종프로젝트링크</a>
 
 # :books: <a name="outline">개요</a>
-<img src="https://raw.githubusercontent.com/ldj8196/MiniProject_JSP/main/src/main/webapp/resources/images/jsp메인페이지.gif">
+<img src="https://raw.githubusercontent.com/ldj8196/MiniProject_JSP/main/src/main/webapp/resources/images/개요.png">
 
 >**프로젝트**: 항만물류사이트 제작
 >
@@ -22,6 +22,41 @@
 >
 >**담당 기능**: 이메일인증, 사업자등록번호 확인, 선박 시뮬레이션, 배송추적, 결제, 목록확인
 
+# :wrench: <a name="tech">기술스택</a>
+<h4>데이터베이스</h4>
+<div align="left">
+ 	<img src="https://img.shields.io/badge/ORACLE-F80000?style=flat&logo=oracle&logoColor=white" />
+  <img src="https://img.shields.io/badge/H2-232F3E?style=flat&logo=h2&logoColor=white" />
+</div> 
+<h4>백엔드</h4>
+<div align="left">
+ 	<img src="https://img.shields.io/badge/JAVA-007396?style=flat&logo=Java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MyBatis-232F3E?style=flat&logo=mybatis&logoColor=white" />
+  <img src="https://img.shields.io/badge/JSP-007396?style=flat&logo=Java&logoColor=white"/>
+</div> 
+<h4>프론트엔드</h4>
+<div align="left">
+	<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
+	<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=flat&logo=javascript&logoColor=white" />
+</div>
+<h4>UI프로토타입</h4>
+<div align="left">
+	<img src="https://img.shields.io/badge/FIGMA-F24E1E?style=flat&logo=figma&logoColor=white" />
+</div>
+<h4>협업도구</h4>
+<div align="left">
+	<img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white" />
+	<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" />
+</div>
+<h4>통합개발환경</h4>
+<div align="left">
+	<img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat&logo=eclipseide&logoColor=white" />
+</div>
+
+# :family: <a name="team">팀원소개</a>
+<img src="https://raw.githubusercontent.com/ldj8196/MiniProject_JSP/main/src/main/webapp/resources/images/팀원구성.png"> <br/><br/>
+# :bookmark_tabs: <a name="function">기능구현</a>
 ## 1일차
 - 2023.04.11
   - Notion Group 생성
@@ -79,6 +114,7 @@
  - ERD를 바탕으로 DB에 테이블 생성
  - 선박 사용구분 조사
  - 메인 레이아웃 이미지 수집
+<img src="https://raw.githubusercontent.com/ldj8196/MiniProject_JSP/main/src/main/webapp/resources/images/ERD구조.png"> <br/><br/>
  
  ## 10일차
  - 2023.04.24 월
@@ -86,6 +122,7 @@
  - 프론트앤드 디자인 이미지 수집
  - 회원가입 페이지 구현
  - 항구, 하역테이블 데이터 삽입
+<img src="https://raw.githubusercontent.com/ldj8196/MiniProject_JSP/main/src/main/webapp/resources/images/jsp메인페이지.gif">
  
  ## 11일차
  - 2023.04.25 화
@@ -93,6 +130,7 @@
  - 화물, 운행정보 페이지 구현
  - 로그인 페이지 구현
  - 사업자 등록번호 API를 이용한 인증 기능 구현
+<img src="https://raw.githubusercontent.com/ldj8196/MiniProject_JSP/main/src/main/webapp/resources/images/사업자등록번호확인.png"> <br/><br/>
 
 ## 12일차
  - 2023.04.26 수
@@ -103,3 +141,11 @@
  - 선박 데이터 삽입
  - 선박 목록 조회 페이지 구현
  - 가견적서 페이지 구현
+<img src="https://raw.githubusercontent.com/ldj8196/MiniProject_JSP/main/src/main/webapp/resources/images/운행정보선택.gif">
+
+# :mag_right: <a name="swot">SWOT분석</a>
+<img src="https://raw.githubusercontent.com/ldj8196/MiniProject_JSP/main/src/main/webapp/resources/images/SWOT.png">
+<br/>
+
+# :arrow_forward: <a name="next">최종프로젝트링크</a>
+<a href="https://github.com/ldj8196/Portfolio">최종프로젝트</a>
